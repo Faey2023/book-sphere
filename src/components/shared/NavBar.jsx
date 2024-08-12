@@ -27,7 +27,7 @@ const NavBar = () => {
           Books
         </Link>
         <Link
-          href="/add"
+          href="/addBook"
           className="hover:text-rose-800 hover:font-semibold hover:underline p-2"
         >
           Add New Book

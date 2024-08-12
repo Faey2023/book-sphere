@@ -14,6 +14,7 @@ const BookPage = ({ params }) => {
     genre,
     publication_date,
     cover_image,
+    rating,
     price,
   } = book || {};
 
@@ -35,11 +36,15 @@ const BookPage = ({ params }) => {
           <span className="italic"> {author}</span>
         </p>
         <p>
-          <span className="font-bold"> Price:</span> $ {price}
+          <span className="font-bold"> Price:</span> ${price}
         </p>
         <p>
           <span className="font-bold"> Publication Date:</span>{" "}
           {publication_date}
+        </p>
+        <p>
+          <span className="font-bold"> Rating:</span>
+          {rating}
         </p>
         <p>
           <span className="font-bold"> Genre:</span> {genre}
