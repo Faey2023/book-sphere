@@ -1,0 +1,31 @@
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoom-bg {
+  animation: zoomInOut 30s infinite;
+  overflow: hidden;
+}
+
+@keyframes textZoomOut {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoom-text {
+  animation: textZoomOut 1.5s ease-out;
+}

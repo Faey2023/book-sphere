@@ -1,7 +1,7 @@
 import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
-import Footer from "@/components/Footer";
-import NavBar from "@/components/NavBar";
+import Footer from "@/components/shared/Footer";
+import NavBar from "@/components/shared/NavBar";
 
 const robotoSerif = Roboto_Serif({ subsets: ["latin"], weight: "400" });
 
@@ -14,14 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={robotoSerif.className}>
-        <div className="flex">
-          <div className="bg-primary-pink h-screen fixed z-[99999] shadow-2xl">
-            <div className="hidden lg:flex flex-col max-w-60 mx-auto">
-              <NavBar />
-            </div>
-          </div>
-          <div className="md:ml-52">{children}</div>
-        </div>
+        <NavBar />
+        {children}
         <Footer />
       </body>
     </html>
