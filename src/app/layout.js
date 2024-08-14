@@ -14,8 +14,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={robotoSerif.className}>
-        <NavBar />
-        {children}
+        <div className="flex">
+          <div className="bg-primary-pink h-screen fixed z-[99999] shadow-2xl">
+            <div className="hidden lg:flex flex-col max-w-60 mx-auto">
+              <NavBar />
+            </div>
+          </div>
+          <div className="md:ml-52">{children}</div>
+        </div>
         <Footer />
       </body>
     </html>
