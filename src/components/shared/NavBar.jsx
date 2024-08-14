@@ -12,7 +12,7 @@ const NavBar = () => {
         <h4 className="md:text-2xl">ook Sphere</h4>
       </div>
       {/* Navbar Navigation Links */}
-      <nav className="flex flex-row gap-3 text-center text-sm md:text-base">
+      <nav className="flex flex-row gap-3 text-center text-sm md:text-base p-3">
         <Link
           href="/"
           className="hover:text-rose-800 hover:font-semibold hover:underline p-2"
