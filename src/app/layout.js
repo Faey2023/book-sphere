@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 
-const inter = Inter({ subsets: ["latin"] });
+const robotoSerif = Roboto_Serif({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Book Sphere",
@@ -12,8 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
-        <Footer/>
+      <body className={robotoSerif.className}>
+        <NavBar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
