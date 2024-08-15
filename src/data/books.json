@@ -3,72 +3,66 @@
     "id": 1,
     "title": "Whispers in the Dark",
     "author": "Ava Stone",
-    "description": "A chilling mystery that unravels secrets buried deep within a small town.",
+    "description": "In the quaint and seemingly peaceful town of Rosewood, a deep-seated darkness lies dormant, waiting to resurface. 'Whispers in the Dark' follows the story of Detective Eliza Blackwood, a seasoned investigator with a troubled past, as she unravels a web of secrets that have haunted the town for decades. With each clue she uncovers, the lines between friend and foe blur, and Eliza finds herself questioning her own sanity. This chilling mystery takes readers on a journey through the shadows of human nature, where every whisper holds the key to a haunting truth.",
     "genre": "Mystery",
-    "published_year": 2020,
+    "publication_date": "2020-10-15",
     "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7i2Fb2722RiuwaVf-G9_Zp4RHVLRpvt5vsv9673dlhN0fUFXt4teXdO17-gi3o5fKNZk&usqp=CAU",
     "rating": 4.3,
-    "price": 17.99,
-    "available_copies": 10
+    "price": 17.99
   },
   {
     "id": 2,
     "title": "The Forgotten Garden",
     "author": "Lily Harper",
-    "description": "An enchanting tale of love and loss set in a hidden garden.",
+    "description": "Nestled deep within the English countryside lies a garden long forgotten by time, its walls overgrown with ivy and its pathways hidden beneath the earth. When Emma Caldwell inherits her grandmother’s estate, she discovers the garden and is drawn to its untold stories. As she begins to restore the garden to its former glory, Emma unearths more than just flowers and shrubs; she uncovers a tale of love and loss that spans generations. 'The Forgotten Garden' is a poignant story of two souls separated by time, yet forever connected by the love that blossomed within the secret garden.",
     "genre": "Romance",
-    "published_year": 2018,
+    "publication_date": "2018-06-12",
     "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7f9En5YByJsbax5h5j7MhudpP2ykHqc49zOGy_pvEZsiZYkV8HREQmbn35rrUqas2C8&usqp=CAU",
     "rating": 4.7,
-    "price": 12.99,
-    "available_copies": 15
+    "price": 12.99
   },
   {
     "id": 3,
     "title": "Beyond the Horizon",
     "author": "Mason Carter",
-    "description": "An epic adventure across uncharted lands in a quest for discovery.",
+    "description": "In a world untouched by modern civilization, 'Beyond the Horizon' tells the story of a group of explorers led by the intrepid Captain James Thornton. Their mission: to chart unknown territories and uncover the mysteries of a land that lies far beyond the horizon. As they traverse treacherous landscapes, from dense jungles to barren deserts, the team faces challenges that test their courage, resolve, and unity. Each step they take brings them closer to a discovery that could change the course of history—or doom them all. This epic adventure is a tale of discovery, survival, and the indomitable human spirit.",
     "genre": "Adventure",
-    "published_year": 2019,
+    "publication_date": "2019-03-22",
     "cover_image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673020125i/72404657.jpg",
     "rating": 4.5,
-    "price": 19.5,
-    "available_copies": 8
+    "price": 19.5
   },
   {
     "id": 4,
     "title": "Echoes of Eternity",
     "author": "Sophia Bennett",
-    "description": "A timeless romance that transcends the boundaries of life and death.",
+    "description": "In the ethereal landscape of the Scottish Highlands, 'Echoes of Eternity' unfolds the tragic yet beautiful love story of Aileen MacLeod and Liam Fraser. When Aileen, a young woman with a mysterious gift of foresight, meets the dashing Liam, their lives become entwined in a romance that transcends the boundaries of life and death. As they battle the forces that seek to keep them apart, their love echoes through time, leaving an indelible mark on their souls. This timeless romance is a hauntingly beautiful tale of love, sacrifice, and the eternal bond that unites two souls across the ages.",
     "genre": "Romance",
-    "published_year": 2021,
+    "publication_date": "2021-08-04",
     "cover_image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465946420i/30167724.jpg",
     "rating": 4.8,
-    "price": 15.99,
-    "available_copies": 9
+    "price": 15.99
   },
   {
     "id": 5,
-   "title": "The Silent Watcher",
+    "title": "The Silent Watcher",
     "author": "Lucas Foster",
-    "description": "A psychological thriller that keeps you on the edge of your seat.",
+    "description": "Beneath the surface of ordinary life lies a world of dark secrets and hidden threats. 'The Silent Watcher' is a psychological thriller that delves deep into the mind of Jake Holloway, a man haunted by visions of a faceless figure watching his every move. As Jake struggles to discern reality from illusion, he becomes entangled in a dangerous game of cat and mouse. With every twist and turn, the line between hunter and hunted blurs, leading to a shocking climax that will leave readers questioning everything they thought they knew.",
     "genre": "Thriller",
-    "published_year": 2019,
+    "publication_date": "2019-11-30",
     "cover_image": "https://m.media-amazon.com/images/I/6172eATjqTL._SY425_.jpg",
     "rating": 4.7,
-    "price": 16.50,
-    "available_copies": 11
+    "price": 16.5
   },
   {
     "id": 6,
     "title": "Secrets of the Nile",
     "author": "Isabella Grant",
-    "description": "A historical mystery that uncovers ancient secrets hidden along the Nile.",
+    "description": "Set against the backdrop of ancient Egypt, 'Secrets of the Nile' is a captivating historical mystery that follows the journey of Amelia Westwood, an archaeologist determined to uncover the truth behind a series of mysterious deaths linked to an ancient curse. As Amelia delves deeper into the secrets of the Nile, she uncovers a conspiracy that stretches back thousands of years. Rich in historical detail and filled with suspense, this novel weaves a tale of intrigue, betrayal, and the relentless pursuit of knowledge.",
     "genre": "Historical Fiction",
-    "published_year": 2017,
+    "publication_date": "2017-05-18",
     "cover_image": "https://m.media-amazon.com/images/I/51s2jZoUlnL._SY445_SX342_.jpg",
     "rating": 4.4,
-    "price": 18.75,
-    "available_copies": 12
+    "price": 18.75
   }
 ]

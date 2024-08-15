@@ -9,7 +9,7 @@ const Cards = () => {
       <div className="grid grid-rows-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-10 space-y-5">
         {/* cards */}
         {books.map((book) => (
-          <Link href={`/book/${book.id}`} key={book.id}>
+          <Link href={`/books/${book.id}`} key={book.id}>
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">

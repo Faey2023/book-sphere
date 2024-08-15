@@ -1,4 +1,3 @@
-import books from "@/data/books.json";
 import Cards from "../Cards/Cards";
 
 const Featured = () => {
@@ -12,11 +11,6 @@ const Featured = () => {
           great read among our top picks!
         </p>
       </div>
-      {/* <div className="grid grid-cols-3 gap-5">
-        {books.map((book) => (
-          <div>{book.title}</div>
-        ))}
-      </div> */}
       <Cards />
     </div>
   );
